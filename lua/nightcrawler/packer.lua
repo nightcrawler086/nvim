@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+  use { "bluz71/vim-moonfly-colors", as = "moonfly" }
+
 	use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
@@ -42,7 +44,7 @@ return require('packer').startup(function(use)
   }
   use("nvim-treesitter/playground")
   use("theprimeagen/harpoon")
-  use("theprimeagen/refactoring.nvim")
+  --use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
   use("nvim-treesitter/nvim-treesitter-context");
