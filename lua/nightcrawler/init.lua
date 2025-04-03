@@ -1,3 +1,3 @@
-require("nightcrawler.remap")
-require("nightcrawler.packer")
 require("nightcrawler.set")
+require("nightcrawler.remap")
+require("nightcrawler.lazy_init")
