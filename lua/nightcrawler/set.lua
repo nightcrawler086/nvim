@@ -14,5 +14,3 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undoir"
 vim.opt.undofile = true
 
 vim.opt.termguicolors = true
-
-
