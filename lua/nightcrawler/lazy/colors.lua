@@ -4,7 +4,10 @@ function ColorMyPencils(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-	vim.api.nvim_set_hl(0, "CursorLine", { bg = "#1C1C1C" })
+	vim.api.nvim_set_hl(0, "CursorLine", { bg = "#07080A" })
+	vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "#07080A" })
+	vim.api.nvim_set_hl(0, "LineNrBelow", { bg = "#282A36" })
+	vim.api.nvim_set_hl(0, "LineNr", { bg = "#282A36" })
 end
 
 return {
